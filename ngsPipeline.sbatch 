@@ -1,7 +1,0 @@
-#! /bin/bash
-
-#SBATCH -e fastq-err
-#SBATCH -o fastq-out
-#SBATCH -n 4 
-./assignment2-illumina.sh  
-
